@@ -987,7 +987,7 @@ body {
 
 /*text on image with absolute*/
 .browse_text_on_image {
-   bottom: 70px;
+   bottom: 85px;
    object-fit: fill;
    color: whitesmoke;
    font-size: 17px;
