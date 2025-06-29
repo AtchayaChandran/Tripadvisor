@@ -6,6 +6,43 @@ body {
    width: 100%;
 }
 
+.global i {
+   display: none;
+}
+
+.global p {
+   display: none;
+}
+
+.global button {
+   display: none;
+}
+
+.where_to_section {
+   display: none;
+}
+
+.book_fun_text_head_laptop {
+   display: none;
+}
+
+.book_fun_text_para {
+   display: flex;
+}
+
+.book_fun_text_para_laptop {
+   display: none;
+}
+
+.ad_section {
+   display: flex;
+}
+
+.ad_section_laptop {
+   display: none;
+}
+
+
 /*logo section*/
 .tripadvisor_logo_section {
    display: flex;
@@ -37,7 +74,9 @@ body {
    width: 50vw;
 }
 
-
+.tripadvisor_logo p {
+   display: none;
+}
 
 /*download symbol icon*/
 .download_icon {
@@ -74,7 +113,6 @@ body {
    font-family: "Lato", sans-serif;
    font-weight: bolder;
 }
-
 
 
 /*search all*/
@@ -465,6 +503,7 @@ body {
    width: 55vw;
 }
 
+
 .card_finds i {
    position: absolute;
    top: 10px;
@@ -479,6 +518,7 @@ body {
 }
 
 /*card find div img*/
+
 .card_finds img {
    object-fit: cover;
    border-radius: 10px;
@@ -487,7 +527,8 @@ body {
    border-radius: 10px;
 }
 
-.card_finds:hover,
+
+.card_finds :hover,
 .card_finds img:active {
    filter: brightness(70%);
 }
@@ -1020,7 +1061,7 @@ body {
 .footer_section_3,
 .footer_section_4,
 .footer_section_5 {
-   flex: 1 1 180px;
+   flex: 1 1 90px;
    min-width: 150px;
 }
 
@@ -1102,13 +1143,374 @@ body {
 
 
 
-/*---------------------------------media query section------------------------------------*/
-@media (min-width:992px) and (max-width:1200px){
-  
-}
-@media (max-width: 768px) {
-   .card {
-      overflow-x: auto;
-      flex-wrap: nowrap;
+/*--------------------- LAPTOP MEDIA QUERY ---------------------*/
+
+@media (min-width: 1024px) {
+
+   /* Shrink tripadvisor logo */
+   .tripadvisor_logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
    }
+
+   .tripadvisor_logo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 20vw;
+      height: 7vh;
+      margin-left: 170px;
+   }
+
+   .tripadvisor_logo p {
+      font-size: 17px;
+      font-family: "Lato", sans-serif;
+      font-weight: bold;
+      gap: 10px;
+      display: flex;
+      align-items: center;
+      margin-left: 100px;
+   }
+
+   .tripadvisor_logo p:hover {
+      color: rgb(198, 195, 195);
+   }
+
+   .bar_for_portrait {
+      display: none;
+   }
+
+   .search_icon_top,
+   .download_app_icon {
+      display: none;
+   }
+
+   .global {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      cursor: pointer;
+   }
+
+   .global i {
+      display: flex;
+   }
+
+   .global p {
+      display: flex;
+      font-family: "Lato", sans-serif;
+      font-weight: bold;
+   }
+
+   .global button {
+      display: flex;
+      margin-right: 30px;
+      padding: 13px;
+      background-color: black;
+      color: whitesmoke;
+      border-radius: 20px;
+      cursor: pointer;
+      border: none;
+      font-size: 14px;
+   }
+
+   .sign_button:hover {
+      background-color: #444;
+   }
+
+   .where_to_section {
+      margin-top: 130px;
+      display: flex;
+      font-size: 30px;
+      justify-content: center;
+      font-family: "Lato", sans-serif;
+      font-weight: bolder;
+   }
+
+   /* Navbar card  */
+
+   .search_navbar {
+      padding-bottom: 20px;
+      padding-top: 0;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      gap: 5px;
+   }
+
+   .card_navbar {
+      margin-top: 10px;
+      width: 50vw;
+      border-radius: 70px;
+      height: 5vh;
+      padding-top: 5px;
+   }
+
+   .card_navbar input {
+      width: 40vw;
+      font-size: 16px;
+      border-bottom: none;
+      padding-bottom: 0;
+      margin: 0;
+   }
+
+   .navbar_button {
+      width: 50vw;
+      font-size: 16px;
+      height: 6vh;
+      padding: 8px;
+   }
+
+   /* Search All Section */
+   .search_all_section {
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+   }
+
+   .search_all {
+      font-size: 22px;
+      padding: 5px;
+      margin-top: 40px;
+
+   }
+
+   .search_all div {
+      font-size: 15px;
+   }
+
+   .navbar_button {
+      width: 7vw;
+   }
+
+   .book_fun_container {
+      margin-top: 40px;
+   }
+
+   .book_fun_card {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #FF5D5D;
+      padding-right: 0;
+      border-radius: 10px;
+      width: 75vw;
+      height: 65vh;
+      padding: 0;
+      gap: 10px;
+      margin: 0;
+   }
+
+   .image_wrapper {
+      position: relative;
+      flex: 1;
+      height: 60vh;
+   }
+
+   .image_wrapper img {
+      width: 100%;
+      height: 100%;
+      border-radius: 15px;
+      object-fit: cover;
+      padding: 10px;
+      display: block;
+
+   }
+
+   .num_button_inside_img {
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+      background-color: white;
+      padding: 8px 16px;
+      font-weight: bold;
+      border: 2px solid black;
+      border-radius: 30px;
+      cursor: default;
+   }
+
+   .border_line_under_image {
+      width: 1px;
+      height: 90%;
+      background-color: black;
+   }
+
+   .book_fun_text_container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      font-family: "Lato", sans-serif;
+   }
+
+   .book_fun_text_head_laptop {
+      font-size: 65px;
+      font-weight: 900;
+      line-height: 1.2;
+      margin: 0;
+      color: black;
+      padding-top: 20px;
+      padding-left: 15px;
+   }
+
+   .book_fun_text_para {
+      display: none;
+   }
+
+   .book_fun_text_para_laptop {
+      display: flex;
+   }
+
+   .book_fun_text_para_laptop {
+      font-size: 18px;
+      margin: 0;
+      color: #111;
+      padding-top: 0;
+      padding-left: 15px;
+   }
+
+   .book_fun_button {
+      background-color: black;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      width: 10vw;
+      margin-top: 0;
+      margin-left: 10px;
+   }
+
+   .book_fun_button:hover {
+      background-color: #333;
+   }
+
+   .book_fun_text_head {
+      display: none;
+   }
+
+   .book_fun_text_head_laptop {
+      display: flex;
+   }
+
+  
+   .card_image.explore_experience_img {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px 0;
+   }
+
+   .card_finds {
+      width: 20%;
+      background-color: white;
+      border-radius: 10px;
+      padding: 10px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 380px;
+   }
+
+   .card_finds img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+   }
+
+   .explore_container {
+      width: 100vw;
+      margin: 0 auto;
+      padding: 40px 20px;
+      box-sizing: border-box;
+   }
+
+   .under_image_text {
+      font-size: 16px;
+      color: #111;
+      line-height: 1.4;
+      margin: 10px 0;
+      white-space: normal;
+      overflow: visible;
+   }
+
+   .explore_experience_section{
+      margin-left:140px;
+      margin-top:20px;
+   }
+
+   /* Adjust card sizes for horizontal scroll */
+   .find_things-to_do_container {
+      margin-left: 150px;
+   }
+
+   .cards_find,
+   .card_finds,
+   .card_finds_right_now,
+   .card_inspiration,
+   .browse_themed_card_find,
+   .iconic_card_find {
+      width: 19vw;
+      height: 33vh;
+   }
+
+   .cards_find img,
+   .card_finds img,
+   .card_finds_right_now img,
+   .card_inspiration img,
+   .browse_themed_card_find img,
+   .iconic_card_find img {
+      height: 100%;
+   }
+
+   .ad_section {
+      display: none;
+   }
+
+   .ad_section_laptop {
+      display: flex;
+      justify-content: center;
+   }
+
+   .ad_section_laptop img {
+      width: 50vw;
+   }
+
+   .advertisement_container_laptop {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   /* Footer text size */
+   .footer_section p {
+      font-size: 14px;
+   }
+
+   /* Watch Image Size */
+   .watch_image img {
+      height: 50vh;
+      width: 70vw;
+   }
+
+   /* Awards image size */
+   .awards_section img {
+      width: 50vh;
+   }
+
+   /* Footer spacing better aligned */
+   .footer_section {
+      gap: 60px;
+   }
+
+  
+
 }
