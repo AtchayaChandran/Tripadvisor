@@ -1,0 +1,1114 @@
+html,
+body {
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+   width: 100%;
+}
+
+/*logo section*/
+.tripadvisor_logo_section {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   border-bottom: 1px lightgrey solid;
+   width: auto;
+   margin: 0;
+   background-color: white;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 10;
+}
+
+/*bar*/
+.fa-solid {
+   font-size: 23px;
+   width: auto;
+   height: auto;
+}
+
+
+/*tripadvisor logo img*/
+.tripadvisor_logo img {
+   height: 35px;
+   width: 50vw;
+}
+
+
+
+/*download symbol icon*/
+.download_icon {
+   font-size: 15px;
+}
+
+
+
+/*search icon main div*/
+.search_icon_top {
+   display: flex;
+   padding-left: 8px;
+}
+
+
+
+/*search icon*/
+.search_icon {
+   font-size: 17px;
+   color: grey;
+   padding-right: 15px;
+}
+
+/*div for app icon*/
+.download_app_icon {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   border: solid 2px black;
+   width: 50px;
+   height: 10px;
+   border-radius: 30px;
+   padding: 10px;
+   font-family: "Lato", sans-serif;
+   font-weight: bolder;
+}
+
+
+
+/*search all*/
+.search_all {
+   margin-top: 65px;
+   font-size: 27px;
+   display: flex;
+   gap: 10px;
+   padding: 10px;
+   margin-left: 10px;
+   border-bottom: 2px solid transparent;
+   transition: border-bottom 0.3s ease;
+}
+
+.search_all:hover {
+   border-bottom: 2px black solid;
+}
+
+/*para search all*/
+.para_search_all_1 {
+   font-size: 18px;
+   font-weight: bold;
+   font-family: "Lato", sans-serif;
+   margin-top: 6px;
+}
+
+/*hotel para*/
+.para_search_all_2 {
+   font-size: 18px;
+   font-weight: bold;
+   font-family: "Lato", sans-serif;
+   margin-top: 6px;
+}
+
+/*things to do para*/
+.para_search_all_3 {
+   font-size: 18px;
+   font-weight: bold;
+   font-family: "Lato", sans-serif;
+   margin-top: 3px;
+}
+
+/*restaurant*/
+.para_search_all_4 {
+   font-size: 18px;
+   font-weight: bold;
+   font-family: "Lato", sans-serif;
+   margin-top: 6px;
+}
+
+/*flights*/
+.para_search_all_5 {
+   font-size: 18px;
+   font-weight: bold;
+   font-family: "Lato", sans-serif;
+   margin-top: 4px;
+}
+
+/*holiday homes*/
+.para_search_all_6 {
+   font-size: 18px;
+   font-weight: bold;
+   font-family: "Lato", sans-serif;
+   margin-top: 3px;
+}
+
+
+/*categories section*/
+.search_all_section {
+   gap: 20px;
+   padding: 10px;
+   overflow-x: auto;
+   white-space: nowrap;
+   scrollbar-width: none;
+   -ms-overflow-style: none;
+   display: flex;
+   text-align: center;
+}
+
+/*hover for para search all section*/
+.para_search_all_1:hover,
+.para_search_all_2:hover,
+.para_search_all_3:hover,
+.para_search_all_4:hover,
+.para_search_all_5:hover,
+.para_search_all_6:hover {
+   cursor: pointer;
+   color: grey;
+}
+
+/*search navbar main container*/
+.search_navbar {
+   margin-top: 10px;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+}
+
+/*card for navbar in search navbar*/
+.card_navbar {
+   border: 1px whitesmoke solid;
+   height: auto;
+   width: 84vw;
+   border-radius: 15px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   padding: 10px;
+   padding-bottom: 20px;
+}
+
+/*navbar input*/
+.card_navbar input {
+   border: none;
+   font-size: 18px;
+   font-family: "Lato", sans-serif;
+   padding-bottom: 20px;
+   border-bottom: 1px lightgray solid;
+   width: 70vw;
+   margin: 10px;
+}
+
+/*focus to hide input box*/
+.card_navbar input:focus {
+   outline: none;
+}
+
+/*styling search icon*/
+.card_navbar i {
+   font-size: 19px;
+}
+
+/*navbar button search section*/
+.navbar_button {
+   font-family: "Lato", sans-serif;
+   font-weight: bold;
+   padding: 10px;
+   background-color: #1ad993;
+   color: black;
+   font-size: 18px;
+   border-radius: 25px;
+   width: 78vw;
+   border: 2px #21a474 solid;
+   height: 45px;
+   margin-top: 5px;
+}
+
+/*nabar button search hover section*/
+.navbar_button:hover {
+   cursor: pointer;
+   background-color: #76f1c6;
+}
+
+/*main container for book fun section*/
+.book_fun_container {
+   display: flex;
+   justify-content: center;
+}
+
+/*book fun card 2 section*/
+.book_fun_card {
+   background-color: #ff4a36;
+   height: auto;
+   border-radius: 10px;
+   padding: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 25px;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+   width: 84vw;
+}
+
+/*book fun card img section bike*/
+.book_fun_card img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   display: block;
+}
+
+/*book fun number inside img*/
+.num_button_inside_img {
+   background-color: #ff4a36;
+   border-color: black;
+   padding: 10px;
+   color: black;
+   font-size: 15px;
+   font-weight: bold;
+   height: 6vh;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+   border: 2px solid black;
+   position: absolute;
+   top: 65%;
+   left: 10px;
+   border-radius: 20px;
+   font-family: 'Nunito', sans-serif;
+}
+
+/*used for wrapping image with that number inside img*/
+.image_wrapper {
+   position: relative;
+   overflow: hidden;
+   width: 100%;
+   height: 20vh;
+}
+
+/*one black border bottom line under img */
+.border_line_under_image {
+   margin-top: 18px;
+   border-bottom: 1px solid black;
+   width: 100%;
+}
+
+/*book fun inside text container*/
+.book_fun_text_container {
+   font-family: 'Poppins', sans-serif;
+   padding: 5px;
+}
+
+/*book fun <h1> text*/
+.book_fun_text_head {
+   font-size: 45px;
+   font-weight: 800;
+   line-height: 1.0;
+   letter-spacing: -2px;
+}
+
+/*book fun text <p>*/
+.book_fun_text_para {
+   padding-top: 15px;
+   font-size: 23px;
+   font-family: "Noto Sans", sans-serif;
+   color: black;
+}
+
+/*book fun button section*/
+.book_fun_button {
+   background-color: black;
+   border-color: black;
+   padding: 10px;
+   color: whitesmoke;
+   font-size: 19px;
+   font-weight: bold;
+   height: auto;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+   border: 2px solid black;
+   border-radius: 25px;
+   font-family: 'Nunito', sans-serif;
+   margin-top: 20px;
+}
+
+/*-----------------------------main find things to do para container--------------------*/
+.find_things-to_do_container {
+   padding: 23px;
+}
+
+/*<h1> find things to do head*/
+.find_things_to_do_head {
+   font-family: 'Nunito', sans-serif;
+   margin-top: 30px;
+   font-size: 30px;
+   font-weight: bolder;
+}
+
+/*<p> find things to do para*/
+.find_things_to_do_para {
+   font-family: 'Nunito', sans-serif;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   font-size: 18px;
+}
+
+/*card for slide scroll*/
+.cards {
+   padding-bottom: 10px;
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   overflow-x: auto;
+   overflow-y: hidden;
+   scroll-behavior: smooth;
+}
+
+.cards::-webkit-scrollbar {
+   display: none;
+}
+
+/*card find div*/
+.cards_find {
+   position: relative;
+   flex: 0 0 auto;
+   width: 55vw;
+   height: 30vh;
+
+}
+
+/*card find div img*/
+.cards_find img {
+   object-fit: cover;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: filter 0.3s ease;
+   border-radius: 10px;
+   width: 100%;
+   height: 100%;
+}
+
+.cards_find img:hover,
+.cards_find img:active {
+   filter: brightness(70%);
+}
+
+/*text on image with absolute*/
+.text_on_image {
+   bottom: 10px;
+   color: whitesmoke;
+   font-size: 27px;
+   padding: 4px 8px;
+   font-family: 'Nunito', sans-serif;
+   text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
+   cursor: pointer;
+   position: absolute;
+   left: 10px;
+}
+
+
+.advertisement_container {
+   display: flex;
+   justify-content: center;
+}
+
+.ad_section img {
+   margin: 15px;
+   width: auto;
+   height: auto;
+}
+
+/*Explore experiences near chennai (madras)*/
+.explore_container {
+   padding: 23px;
+}
+
+/*<h1> find things to do head*/
+.explore_experience_head {
+   font-family: 'Nunito', sans-serif;
+   margin-top: 30px;
+   font-size: 27px;
+   font-weight: bold;
+}
+
+/*<p> find things to do para*/
+.explore_experience_para {
+   font-family: 'Nunito', sans-serif;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   font-size: 18px;
+}
+
+.card_image img {
+   width: 55vw;
+   height: 30vh;
+   border-radius: 10px;
+}
+
+/*card for slide scroll*/
+.card_image {
+   padding-bottom: 10px;
+   width: 100%;
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   overflow-x: auto;
+   overflow-y: hidden;
+   scroll-behavior: smooth;
+}
+
+.card_image::-webkit-scrollbar {
+   display: none;
+}
+
+/*card find div*/
+.card_finds {
+   position: relative;
+   height: auto;
+   flex: 0 0 auto;
+   width: 55vw;
+}
+
+.card_finds i {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   font-size: 21px;
+   color: #fff;
+   background-color: #f3f2f2;
+   padding: 9px;
+   border-radius: 50%;
+   cursor: pointer;
+   z-index: 1;
+}
+
+/*card find div img*/
+.card_finds img {
+   object-fit: cover;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: filter 0.3s ease;
+   border-radius: 10px;
+}
+
+.card_finds:hover,
+.card_finds img:active {
+   filter: brightness(70%);
+}
+
+.under_image_text {
+   color: black;
+   font-size: 17px;
+   font-family: 'Nunito', sans-serif;
+   padding-top: 5px;
+   line-height: 1.4;
+   text-align: left;
+}
+
+.rating_greencircle {
+   color: grey;
+   font-family: 'Nunito', sans-serif;
+}
+
+.rating_greencircle i {
+   position: sticky;
+   border-radius: 0;
+   background-color: white;
+   padding: 0;
+   margin: 0;
+   font-size: 14px;
+}
+
+.price_for_adult {
+   padding-top: 5px;
+   font-family: 'Nunito', sans-serif;
+   font-size: 15px;
+}
+
+
+.ad_section_3 img {
+   margin: 15px;
+   width: 84vw;
+   height: auto;
+}
+
+/*Inspiration container*/
+.inspiration_container {
+   padding: 23px;
+   background-color: #F2F1EC;
+   margin-top: 20px;
+}
+
+/*<h1> inspiration head*/
+.inspiration_head {
+   font-family: 'Nunito', sans-serif;
+   margin-top: 30px;
+   margin-bottom: 20px;
+   font-size: 24px;
+   font-weight: bold;
+}
+
+
+.card_image_inspiration img {
+   width: 55vw;
+   height: 30vh;
+   border-radius: 10px;
+}
+
+/*card for slide scroll*/
+.card_image_inspiration {
+   padding-bottom: 10px;
+   width: 100%;
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   overflow-x: auto;
+   overflow-y: hidden;
+   scroll-behavior: smooth;
+}
+
+.card_image_inspiration::-webkit-scrollbar {
+   display: none;
+}
+
+/*card find div*/
+.card_inspiration {
+   position: relative;
+   height: auto;
+   flex: 0 0 auto;
+   width: 55vw;
+}
+
+.card_inspiration i {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   font-size: 21px;
+   color: #fff;
+   background-color: #f3f2f2;
+   padding: 9px;
+   border-radius: 50%;
+   cursor: pointer;
+   z-index: 1;
+}
+
+/*card find div img*/
+.card_inspiration img {
+   object-fit: cover;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: filter 0.3s ease;
+   border-radius: 10px;
+}
+
+.card_inspiration img:hover,
+.card_inspiration img:active {
+   filter: brightness(70%);
+}
+
+.inspiration_image_text {
+   color: black;
+   font-size: 17px;
+   font-family: 'Nunito', sans-serif;
+   padding-top: 5px;
+   line-height: 1.4;
+   text-align: center;
+}
+
+/*------------------------Explore experiences near chennai (madras)-----------------------*/
+.right_now_container {
+   padding: 23px;
+}
+
+.green_box {
+   margin-top: 4px;
+   background-color: #C9F2E3;
+   border-radius: 5px;
+   border: #C9F2E3;
+   height: 4vh;
+   width: auto;
+   font-size: 15px;
+   font-family: 'Nunito', sans-serif;
+}
+
+/*<h1> find things to do head*/
+.right_now_head {
+   margin-top: 30px;
+   font-family: 'Nunito', sans-serif;
+   font-size: 27px;
+   font-weight: bold;
+}
+
+/*<p> find things to do para*/
+.right_now_para {
+   font-family: 'Nunito', sans-serif;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   font-size: 18px;
+}
+
+.right_now_card img {
+   width: 55vw;
+   height: 30vh;
+   border-radius: 10px;
+}
+
+/*card for slide scroll*/
+.right_now_card {
+   padding-bottom: 10px;
+   width: 100%;
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   overflow-x: auto;
+   overflow-y: hidden;
+   scroll-behavior: smooth;
+}
+
+.right_now_card::-webkit-scrollbar {
+   display: none;
+}
+
+/*card find div*/
+.card_finds_right_now {
+   position: relative;
+   height: auto;
+   flex: 0 0 auto;
+   width: 55vw;
+}
+
+.card_finds_right_now i {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   font-size: 21px;
+   color: #fff;
+   background-color: #f3f2f2;
+   padding: 9px;
+   border-radius: 50%;
+   cursor: pointer;
+   z-index: 1;
+}
+
+/*card find div img*/
+.card_finds_right_now img {
+   object-fit: cover;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: filter 0.3s ease;
+   border-radius: 10px;
+}
+
+.card_finds_right_now img:hover,
+.card_finds_right_now img:active {
+   filter: brightness(70%);
+}
+
+.under_image_text {
+   color: black;
+   font-size: 17px;
+   font-family: 'Nunito', sans-serif;
+   padding-top: 5px;
+   line-height: 1.4;
+   text-align: left;
+}
+
+.rating_greencircle {
+   color: grey;
+   font-family: 'Nunito', sans-serif;
+}
+
+.rating_greencircle i {
+   position: sticky;
+   border-radius: 0;
+   background-color: white;
+   padding: 0;
+   margin: 0;
+   font-size: 14px;
+}
+
+.price_for_adult {
+   padding-top: 5px;
+   font-family: 'Nunito', sans-serif;
+   font-size: 15px;
+}
+
+/*----------------------------iconic place you need to see container------------------*/
+.iconic_container {
+   padding: 23px;
+}
+
+/*<h1> find things to do head*/
+.iconic_head {
+   font-family: 'Nunito', sans-serif;
+   font-size: 27px;
+   font-weight: bold;
+}
+
+/*card in find things to do img*/
+.iconic_card img {
+   width: 55vw;
+   height: 30vh;
+   border-radius: 10px;
+}
+
+/*card for slide scroll*/
+.iconic_card {
+   margin-top: 20px;
+   padding-bottom: 10px;
+   width: 100%;
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   overflow-x: auto;
+   overflow-y: hidden;
+   scroll-behavior: smooth;
+}
+
+.iconic_card::-webkit-scrollbar {
+   display: none;
+}
+
+/*card find div*/
+.iconic_card_find {
+   position: relative;
+   height: 30vh;
+   flex: 0 0 auto;
+   width: 55vw;
+}
+
+/*card find div img*/
+.iconic_card_find img {
+   object-fit: cover;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: filter 0.3s ease;
+   border-radius: 10px;
+}
+
+.iconic_card_find img:hover,
+.iconic_card_find img:active {
+   filter: brightness(70%);
+}
+
+/*text on image with absolute*/
+.iconic_text_on_image {
+   bottom: 8px;
+   color: whitesmoke;
+   text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
+   font-size: 22px;
+
+   font-family: 'Nunito', sans-serif;
+   cursor: pointer;
+   position: absolute;
+   left: 10px;
+}
+
+/*--------------------------------watch the wanderer section---------------------*/
+* {
+   margin: 0;
+}
+
+.watch_container {
+   background-color: #F2ECF9;
+   margin-top: 20px;
+   padding-top: 20px;
+   padding-bottom: 25px;
+}
+
+.watch_section {
+   margin: 15px;
+   display: flex;
+   text-align: center;
+   gap: 5px;
+   font-family: 'Nunito', sans-serif;
+   font-size: 18px;
+}
+
+.watch_section img {
+   height: 5vh;
+}
+
+.watch_para {
+   padding-top: 8px;
+}
+
+.under_line {
+   text-decoration: underline;
+}
+
+.caption_watch_head {
+   font-family: 'Nunito', sans-serif;
+   font-size: xx-large;
+   margin-top: 15px;
+   padding-left: 15px;
+}
+
+.caption_watch_para {
+   font-family: 'Nunito', sans-serif;
+   font-size: medium;
+   padding-left: 15px;
+}
+
+.watch_image img {
+   height: 45vh;
+   width: 88vw;
+   padding-left: 20px;
+}
+
+.watch_button {
+   background-color: black;
+   border-color: black;
+   padding: 10px;
+   color: whitesmoke;
+   font-size: 19px;
+   font-weight: bold;
+   height: auto;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+   border: 2px solid black;
+   border-radius: 25px;
+   font-family: 'Nunito', sans-serif;
+   margin-top: 20px;
+   margin-left: 20px;
+}
+
+.awards_container {
+   margin-top: 55px;
+   height: auto;
+   width: 100%;
+   background-color: #FFF7E1;
+   padding: 20px;
+   font-family: 'Nunito', sans-serif;
+   margin-bottom: 30px;
+}
+
+.award_head {
+   padding-top: 10px;
+   font-size: 35px;
+}
+
+.awards_para {
+   padding-top: 15px;
+   font-size: larger;
+   font-weight: 400;
+}
+
+.awards_section img {
+   width: 45vh;
+   margin-top: 20px;
+}
+
+.award_button {
+   background-color: black;
+   border-color: black;
+   padding: 10px;
+   color: whitesmoke;
+   font-size: 20px;
+   font-weight: bold;
+   height: auto;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+   border: 2px solid black;
+   border-radius: 25px;
+   font-family: 'Nunito', sans-serif;
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+
+/*-----------------------------main Browse themed collection container--------------------*/
+.browse_themed_container {
+   padding: 23px;
+   margin-bottom: 20px;
+}
+
+/*<h1> find things to do head*/
+.browse_themed_head {
+   font-family: 'Nunito', sans-serif;
+   margin-top: 10px;
+   font-size: 27px;
+   font-weight: bolder;
+   margin-bottom: 20px;
+}
+
+/*<p> find things to do para*/
+.browse_themed_para {
+   font-family: 'Nunito', sans-serif;
+   margin-top: 7px;
+   margin-bottom: 20px;
+   font-size: 14px;
+}
+
+/*card in find things to do img*/
+.browse_themed_card img {
+   width: 55vw;
+   height: 25vh;
+   border-radius: 10px;
+}
+
+/*card for slide scroll*/
+.browse_themed_card {
+   padding-bottom: 10px;
+   width: 100%;
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   overflow-x: auto;
+   overflow-y: hidden;
+   scroll-behavior: smooth;
+}
+
+.browse_themed_card::-webkit-scrollbar {
+   display: none;
+}
+
+/*card find div*/
+.browse_themed_card_find {
+   position: relative;
+   flex: 0 0 auto;
+   width: 55vw;
+}
+
+/*card find div img*/
+.browse_themed_card_find img {
+   object-fit: cover;
+   border-radius: 10px;
+   cursor: pointer;
+   border-radius: 10px;
+   transition: filter 0.3s ease;
+}
+
+.browse_themed_card_find img:hover,
+.browse_themed_card_find img:active {
+   filter: brightness(70%);
+}
+
+/*text on image with absolute*/
+.browse_text_on_image {
+   bottom: 70px;
+   object-fit: fill;
+   color: whitesmoke;
+   font-size: 17px;
+   font-family: 'Nunito', sans-serif;
+   text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
+   cursor: pointer;
+   position: absolute;
+   left: 5px;
+}
+
+/*---------------------------------footer section------------------------------------*/
+.footer_container {
+   background-color: #f2f2f2;
+   padding: 40px 20px;
+   font-family: 'Nunito', sans-serif;
+   color: #333;
+}
+
+.footer_section {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 30px;
+   margin-bottom: 30px;
+}
+
+/* Each column */
+.footer_section_1,
+.footer_section_2,
+.footer_section_3,
+.footer_section_4,
+.footer_section_5 {
+   flex: 1 1 180px;
+   min-width: 150px;
+}
+
+.footer_section h3 {
+   font-size: 16px;
+   margin-bottom: 10px;
+   color: #000;
+}
+
+.footer_section p {
+   font-size: 14px;
+   margin: 6px 0;
+   cursor: pointer;
+}
+
+.footer_section p:hover {
+   text-decoration: underline;
+}
+
+/* Dropdowns */
+.footer_drop_down_rupees,
+.footer_drop_down_region {
+   flex: 1 1 200px;
+
+}
+
+.footer_drop_down_rupees select,
+.footer_drop_down_region select {
+   width: 100%;
+   padding: 10px;
+   font-size: 14px;
+   border-radius: 5px;
+   border: 2px solid #ccc;
+   border-radius: 15px;
+}
+
+/* Social media icons */
+.social_media_ {
+   display: flex;
+   gap: 15px;
+   font-size: 20px;
+   margin-top: 20px;
+}
+
+.social_media_ i {
+   cursor: pointer;
+}
+
+.footer_logo_links {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 10px;
+}
+
+.footer_logo_links p {
+   text-decoration: underline;
+   font-size: 12px;
+   color: #666;
+   margin: 2px 0;
+   cursor: pointer;
+   white-space: nowrap;
+}
+
+.footer_logo_links img {
+   height: 40px;
+   margin-bottom: 10px;
+}
+
+/* Last paragraph */
+.footer_last_para p {
+   font-size: 17px;
+   color: #666;
+   line-height: 1.6;
+   margin-top: 20px;
+   padding-bottom: 2px;
+}
+
+
+
+
+/*---------------------------------media query section------------------------------------*/
+@media (min-width:992px) and (max-width:1200px){
+  
+}
+@media (max-width: 768px) {
+   .card {
+      overflow-x: auto;
+      flex-wrap: nowrap;
+   }
+}
