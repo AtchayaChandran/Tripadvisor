@@ -34,6 +34,6 @@ The design adapts based on screen size using **CSS media queries**:
 
 ---
 
-🌍Live here ()
+🌍Live here (https://atchayachandran.github.io/Tripadvisor/)
 
 
